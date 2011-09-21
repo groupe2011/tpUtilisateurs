@@ -13,6 +13,9 @@ import fr.norsys.formation.dto.DtoUtilisateur;
  * @author technomaker09
  *
  */
+
+
+// ca marche rachid
 public interface IDAOAdresse {
 	public int createAdresse(DtoAdresse a, int idUtilisateur) throws SQLException;
 	public ResultSet findAdresseById(int id) throws SQLException;
